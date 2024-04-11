@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="img/logo.png" alt="" style="width: 300px;">
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="pos-relative banner" id="home">
+        <video width="100%" autoplay muted loop>
+            <!-- 
+                autoplay = for the video to play when the website is launched 
+
+                muted = to mute the video
+
+                loop = to play the video on repeat
+            -->
+
+            <source src="vids/samg.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+        <div class="welcome-message">
+
+            <div class="bordered">
+                <h1>KOREAN RESTAURANT</h1>
+            </div>
+            <button class="header-btn">ORDER ONLINE</button>
+        </div>
+    </div>
+    <!-- END OF THE BANNER -->
+
+    <!-- ABOUT -->
+
+    <div class="about-container" id="about">
+        <div class="about-content">
+            <h1>
+                Welcome to <br/>
+                Korean Restaurant
+            </h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor minus beatae, debitis excepturi ullam possimus dicta suscipit itaque a sequi, asperiores tempore magni, earum est. Pariatur harum ea unde nemo.
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro consequuntur eligendi maxime possimus voluptatibus quasi voluptatem, praesentium quos, molestiae inventore quaerat culpa, veniam omnis. Saepe eius cupiditate cumque culpa.
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui distinctio quae minus optio suscipit iste quo sapiente expedita veritatis est. Expedita, tempora. Doloremque, exercitationem. Aspernatur vel quam tempore voluptas facere.
+            </p>
+            <img src="img/team.jpg" alt="" width="100%">
+        </div>
+    </div>
+<!-- END OF ABOUT -->
+
+<!-- MENU -->
+    <div class="menu-container" id="menu">
+        <div class="menu-content">
+            <h1>OUR MENU</h1>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi facere magnam laboriosam sapiente. Eligendi repudiandae dicta at adipisci fuga inventore placeat beatae consequatur architecto molestias, quo laborum accusamus harum id?
+            </p>
+
+            <div class="menu-items">
+                <div class="item">
+                    <h1>Bibimbap</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt assumenda ad consequatur nobis fuga explicabo, vitae sequi aspernatur ullam sunt officia asperiores blanditiis harum recusandae consectetur incidunt rem necessitatibus aperiam.
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="img/bibimbap.jpg">
+            </div>    
+
+        <!-- End of 1st Row -->
+
+            <div class="item">
+                <img src="img/kimchi.jpg">
+            </div> 
+                <div class="item">
+                    <h1>Kimchi</h1>
+                    <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt assumenda ad consequatur nobis fuga explicabo, vitae sequi aspernatur ullam sunt officia asperiores blanditiis harum recusandae consectetur incidunt rem necessitatibus aperiam.
+                    </p>
+                </div>
+                <!-- End of Second Row -->   
+            </div>
+            <!-- End of Menu Items -->
+
+            <!-- VIEW MORE BUTTON -->
+            <button class="golden-btn">VIEW MORE</button>
+            <!-- END OF MENU -->
+        </div>
+    </div>
+
+    <div class="contact-container" id="contact">
+        <div class="contact-content">
+            <p>Want to learn more about us?</p>
+            <h1>CONTACT US</h1>
+            <form method=""action="">
+                <input type="text" placeholder="Full Name">
+                <br/>
+                <input type="number" placeholder="Contact Number">
+                <br/>
+                <textarea></textarea>
+                <br/>
+                <input type="submit" class="golden-btn">
+            </form>
+        </div>
+    </div>
+    <footer>
+        Copyright ©2024 All rights reserved
+    </footer>
+
+</div>
+</body>
+</html>
